@@ -19,8 +19,6 @@ public class PlayerAttack : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-
-
             Instantiate(projectile, firePosition.position, firePosition.rotation);
         }
 

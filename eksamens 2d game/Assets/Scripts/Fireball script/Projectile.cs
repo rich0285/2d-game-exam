@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    public float LiveTime = 5;
     public float projectileSpeed;
     public GameObject impact;
     private Rigidbody2D rb;
@@ -18,12 +19,19 @@ public class Projectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        LiveTime -= Time.deltaTime;
+        if (LiveTime <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Instantiate(impact, transform.position, Quaternion.identity);
         Destroy(gameObject);
+        
+
     }
 }

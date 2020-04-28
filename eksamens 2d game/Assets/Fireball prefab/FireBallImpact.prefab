@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1071666059178830287}
   - component: {fileID: 1430932853005104479}
   - component: {fileID: 4968027147752546078}
+  - component: {fileID: -5366452568350578796}
   m_Layer: 0
   m_Name: FireBallImpact
   m_TagString: Untagged
@@ -100,3 +101,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-5366452568350578796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7500049253586225373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4bc40e5a9f3d0844a225b27a8dc6ad3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LiveTime: 0.3
