@@ -11,8 +11,6 @@ public class Movement : MonoBehaviour
     Vector2 movement;
     Vector2 mousePos;
     Vector2 posDif;
-
-    bool facingRight = true;
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -23,8 +21,6 @@ public class Movement : MonoBehaviour
 
         animator.SetFloat("Mouse Horizontal", posDif.x);
         animator.SetFloat("Mouse Vertical", posDif.y);
-        animator.SetFloat("Move Horizontal", movement.x);
-        animator.SetFloat("Move Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
         // using mousePosition and player's transform (on orthographic camera view)
         var delta = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
