@@ -11,6 +11,11 @@ public class Movement : MonoBehaviour
     Vector2 movement;
     Vector2 mousePos;
     Vector2 posDif;
+
+    void Start()
+    {
+        GetComponent<Rigidbody2D>();
+    }
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -32,6 +37,4 @@ public class Movement : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
-    
-     
 }
