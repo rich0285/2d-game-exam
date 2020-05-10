@@ -80,6 +80,24 @@ TextureImporter:
   - first:
       213: 537939104702803317
     second: rpg_sprite_walk_25
+  - first:
+      213: -3650750091983189511
+    second: rpg_sprite_walk_26
+  - first:
+      213: -401159956553634609
+    second: rpg_sprite_walk_27
+  - first:
+      213: -5621384414994474280
+    second: rpg_sprite_walk_28
+  - first:
+      213: 657389516582424150
+    second: rpg_sprite_walk_29
+  - first:
+      213: -5230416857911471641
+    second: rpg_sprite_walk_30
+  - first:
+      213: -2721951697271019414
+    second: rpg_sprite_walk_31
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -114,7 +132,7 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -136,7 +154,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -147,7 +165,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -158,6 +177,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -176,7 +196,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 079dfa0d7768f284ebcd969164a72f1f
+      spriteID: 7ebbd10865117444f813bb4a1b9cf626
       internalID: -5199717756987311446
       vertices: []
       indices: 
@@ -187,9 +207,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 28
-        y: 64
+        y: 96
         width: 16
-        height: 63
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,7 +217,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 393f3fe672c729845a203381f1f54dbd
+      spriteID: 797a8fea46ba3d4479ed553ebcbf0376
       internalID: 6615295489675062555
       vertices: []
       indices: 
@@ -218,7 +238,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 956b1ebaace8b434fbc844cc78e097da
+      spriteID: b32709de14cfb8848ada09d25c2c4dac
       internalID: 5670624613609038714
       vertices: []
       indices: 
@@ -229,9 +249,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 76
-        y: 64
+        y: 96
         width: 16
-        height: 63
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,7 +259,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2310e8d5eee2b6141a93a3967865d4c7
+      spriteID: 45d4d9c0fbee5c44e951ac9646f75ab2
       internalID: 1513109097327740569
       vertices: []
       indices: 
@@ -260,7 +280,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2225a5650ee29b74bb2cd685eef0a44f
+      spriteID: 22c79e4731e4475419a496f458738821
       internalID: -4752624300361060684
       vertices: []
       indices: 
@@ -271,9 +291,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 124
-        y: 64
+        y: 96
         width: 16
-        height: 63
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,7 +301,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 255e8fc03d01b814086b1fd7d264146d
+      spriteID: e4c6a69f24c35e04c927e78e04b361b2
       internalID: -1361196385114700345
       vertices: []
       indices: 
@@ -302,7 +322,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa776309ad0b279449dae3f06c5cf08d
+      spriteID: 3111992c0ae75cc4b9d203a87abf514a
       internalID: -2580988045703703335
       vertices: []
       indices: 
@@ -313,9 +333,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 172
-        y: 64
+        y: 96
         width: 16
-        height: 63
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,7 +343,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e28da7660e800340a2ba3db24a0355f
+      spriteID: 494f53a42d36ed84ba232cffec031b1b
       internalID: -8418957137887949243
       vertices: []
       indices: 
@@ -344,7 +364,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33bbd4ba2d9a5614a8f047fe70badb06
+      spriteID: 1a9a49ac2be082b4a8fb2d7c46b48199
       internalID: -4950788224058248150
       vertices: []
       indices: 
@@ -352,6 +372,27 @@ TextureImporter:
       weights: []
     - serializedVersion: 2
       name: rpg_sprite_walk_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30417c021c1606f46b1c63e9105a6199
+      internalID: -8689950064694992531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_sprite_walk_10
       rect:
         serializedVersion: 2
         x: 52
@@ -365,14 +406,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a62dd3c4b55b6224fabe595be9084124
-      internalID: -8689950064694992531
+      spriteID: 6ce6ff0b797ac4c4c865f715283029f3
+      internalID: 4213469869793142158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_10
+      name: rpg_sprite_walk_11
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a82c1acafe90dd40b9bfdeafed63631
+      internalID: 6163458646847390814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_sprite_walk_12
       rect:
         serializedVersion: 2
         x: 100
@@ -386,14 +448,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 665a9b4cea647174ba6e561d1632aa09
-      internalID: 4213469869793142158
+      spriteID: 675eaa127adb7024e9a223b45ea2c59c
+      internalID: 1383632117658259588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_11
+      name: rpg_sprite_walk_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 64
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e2ff9ee7271f140952efdce15937f5
+      internalID: 3991534958695997967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_sprite_walk_14
       rect:
         serializedVersion: 2
         x: 148
@@ -407,20 +490,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f25cce58951bf7d4180db1273b9fb4e9
-      internalID: 6163458646847390814
+      spriteID: e774c9f9d851d1049919dd93fae3cd3e
+      internalID: -8750613769923092246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_12
+      name: rpg_sprite_walk_15
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 22
-        height: 64
+        x: 166
+        y: 64
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,14 +511,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cbf5c3c852f57f4781fed8949400b8b
-      internalID: 1383632117658259588
+      spriteID: abd7ca67c7b152a4bb0dd266b8f8260c
+      internalID: 5381097669981560663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_13
+      name: rpg_sprite_walk_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 32
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f1ed7c8dceb0d4898630cd621bec3f
+      internalID: 5933915095636961588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_sprite_walk_17
       rect:
         serializedVersion: 2
         x: 25
@@ -449,14 +553,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9286c31b798553644b6f1bc0b706113c
-      internalID: 3991534958695997967
+      spriteID: 4598f65c42e5df0469aab5e0dfbea5f9
+      internalID: -2304478355712927884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_14
+      name: rpg_sprite_walk_18
       rect:
         serializedVersion: 2
         x: 49
@@ -470,14 +574,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfddb6d03a693a24cb745cd3e41c5dfe
-      internalID: -8750613769923092246
+      spriteID: 293ade0c42f060946809e847e4edc663
+      internalID: -4524224290235928258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_15
+      name: rpg_sprite_walk_19
       rect:
         serializedVersion: 2
         x: 73
@@ -491,20 +595,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae2af6ec590c2c34ca652b1135b0e4e0
-      internalID: 5381097669981560663
+      spriteID: d9db8738d89a38f48a89dff9fce1dc56
+      internalID: 6640229747099119794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_16
+      name: rpg_sprite_walk_20
       rect:
         serializedVersion: 2
-        x: 97
-        y: 0
-        width: 22
-        height: 64
+        x: 92
+        y: 32
+        width: 18
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,14 +616,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c3e3e67481aa46428d6ccba7505267b
-      internalID: 5933915095636961588
+      spriteID: 96324278c691ed444a231a2aea8a7353
+      internalID: -733294616730446126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_17
+      name: rpg_sprite_walk_21
       rect:
         serializedVersion: 2
         x: 121
@@ -533,14 +637,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3136ded3422ea4d43b6301e57aa4e465
-      internalID: -2304478355712927884
+      spriteID: 96a32e031919bd543ab01feec85fd1b5
+      internalID: 2861118978561074978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_18
+      name: rpg_sprite_walk_22
       rect:
         serializedVersion: 2
         x: 145
@@ -554,14 +658,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a23012662541c14395c87550b7498fa
-      internalID: -4524224290235928258
+      spriteID: 5c3163bdbb73e0748b5ddcf6692b4e9f
+      internalID: 8483286295808805334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_19
+      name: rpg_sprite_walk_23
       rect:
         serializedVersion: 2
         x: 169
@@ -575,14 +679,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39816103be62b9f4f8efde075595515e
-      internalID: 6640229747099119794
+      spriteID: f656f41e649ba3f4ab808f57c59498b2
+      internalID: 8509370178103424221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_20
+      name: rpg_sprite_walk_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fff5769cb7bf5f4e9c06e0b20b49c94
+      internalID: -3108294671364701189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_sprite_walk_25
       rect:
         serializedVersion: 2
         x: 29
@@ -596,14 +721,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba66bdf3caab128449fab4408f037629
-      internalID: -733294616730446126
+      spriteID: f8f58cf56a3adad4c92543f700885371
+      internalID: 537939104702803317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_21
+      name: rpg_sprite_walk_26
       rect:
         serializedVersion: 2
         x: 52
@@ -617,14 +742,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ea2522adb2cb094982168f864fa027d
-      internalID: 2861118978561074978
+      spriteID: 0f01c36f24880eb458d95bf3df503dda
+      internalID: -3650750091983189511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_22
+      name: rpg_sprite_walk_27
       rect:
         serializedVersion: 2
         x: 77
@@ -638,14 +763,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc0c4bf476bc5334d89e92ecb5acc752
-      internalID: 8483286295808805334
+      spriteID: eca867f32b2e7224dab50b3ee2e4f934
+      internalID: -401159956553634609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_23
+      name: rpg_sprite_walk_28
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cce0e2d6de84549857fdfd20beb9b6
+      internalID: -5621384414994474280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_sprite_walk_29
       rect:
         serializedVersion: 2
         x: 125
@@ -659,14 +805,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1aa36ce8942d66146bbf8346c7b33d38
-      internalID: 8509370178103424221
+      spriteID: b62ad3336e9065247933c45312b8fa57
+      internalID: 657389516582424150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_24
+      name: rpg_sprite_walk_30
       rect:
         serializedVersion: 2
         x: 148
@@ -680,14 +826,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26bbff4ad1e31e949ae416fce279973b
-      internalID: -3108294671364701189
+      spriteID: d3a641582577c7c4c8d5f1bdb008f5d0
+      internalID: -5230416857911471641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rpg_sprite_walk_25
+      name: rpg_sprite_walk_31
       rect:
         serializedVersion: 2
         x: 173
@@ -701,8 +847,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a131afcbf94fcf4db41c4dc1a65712b
-      internalID: 537939104702803317
+      spriteID: 5f2637fc28dae044ea439d8471155e69
+      internalID: -2721951697271019414
       vertices: []
       indices: 
       edges: []
@@ -710,7 +856,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 680b31963f6824b4c940d176d7586128
+    spriteID: 9ff6a5ef69e91dd42ab0c03f418c60fe
     internalID: 0
     vertices: []
     indices: 
