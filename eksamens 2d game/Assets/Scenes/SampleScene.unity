@@ -243,7 +243,7 @@ MonoBehaviour:
   - {fileID: 8245328409810180515, guid: f308c78cf3b76df47aac7f28b76917e2, type: 3}
   - {fileID: 2780163763045469271, guid: 9fe36667b32e1d9488682e7f0ad5cdb9, type: 3}
   - {fileID: 7388981400102379390, guid: f1bd6da3ad1463440b9620e2d8acf09c, type: 3}
-  closedRoom: {fileID: 7178146629330503906, guid: 563773cafd8aea84fbe89c480d1259bc,
+  closedRoom: {fileID: 7297362545870353133, guid: 1774ab960e759034ebce7efef95e0215,
     type: 3}
   rooms: []
 --- !u!4 &338250668
