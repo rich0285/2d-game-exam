@@ -3639,6 +3639,7 @@ GameObject:
   - component: {fileID: 692870899429696918}
   - component: {fileID: 527195721471978657}
   - component: {fileID: 5519932358771928044}
+  - component: {fileID: 6229063862760701451}
   m_Layer: 0
   m_Name: Spawn Point (1)
   m_TagString: SpawnPoint
@@ -3722,6 +3723,18 @@ MonoBehaviour:
   openingDirection: 0
   spawned: 0
   waitTime: 10
+--- !u!114 &6229063862760701451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4842550983460566883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d3db894cd76dd4387e254c985523ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9180201174531223201
 GameObject:
   m_ObjectHideFlags: 0
