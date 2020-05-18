@@ -4,23 +4,49 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    public Transform firePosition;
 
-    public GameObject projectile;
-    // Start is called before the first frame update
+   
+    public GameObject FirePoint;
+    public GameObject bulletPrefab;
+    public GameObject bulletStart;
+
+    public float bulletSpeed = 60.0f;
+
+    private Vector3 target;
+
+    // Use this for initialization
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
     void Update()
     {
+        target = transform.GetComponent<Camera>().ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, transform.position.z));
+
+        Vector3 difference = target - FirePoint.transform.position;
+        float rotationZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg ;
+        FirePoint.transform.rotation = Quaternion.Euler(0.0f, 0.0f, rotationZ);
+        
 
         if (Input.GetMouseButtonDown(0))
         {
-            Instantiate(projectile, firePosition.position, firePosition.rotation);
+            float distance = difference.magnitude;
+            Vector2 direction = difference / distance;
+            direction.Normalize();
+            fireBullet(direction, rotationZ);
         }
-
+    }
+    void fireBullet(Vector2 direction, float rotationZ)
+    {
+        GameObject b = Instantiate(bulletPrefab) as GameObject;
+        Vector3 theScale = b.transform.localScale;
+        theScale.x *= -1;
+        b.transform.localScale = theScale;
+        b.transform.position = bulletStart.transform.position ;
+        b.transform.rotation = Quaternion.Euler(0.0f, 0.0f, rotationZ);
+        b.GetComponent<Rigidbody2D>().velocity = direction * bulletSpeed;
+       
     }
 }
