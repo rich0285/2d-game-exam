@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 2896860939959503742}
   - component: {fileID: 2896860939959503741}
   - component: {fileID: 5766213765409370912}
-  - component: {fileID: 8143153771545972675}
+  - component: {fileID: 4635131705946440112}
   m_Layer: 0
   m_Name: firecoin
-  m_TagString: Untagged
+  m_TagString: Coins
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,13 +92,13 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.26, y: -0.12}
   serializedVersion: 2
   m_Radius: 3.6320622
---- !u!95 &8143153771545972675
+--- !u!95 &4635131705946440112
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0

@@ -6,11 +6,11 @@ public class CoinPicker : MonoBehaviour
 {
     private float Score = 0f;
 
-    void OnTiggerEnter2D(Collider2D collider)
+    void OnTriggerEnter2D(Collider2D TheCoin)
     {
-        if (collider.transform.tag == "Coins")
+        if (TheCoin.transform.tag == "Coins")
         {
-            Destroy(this.gameObject);
+            Destroy(TheCoin.gameObject);
         }
         
     }
