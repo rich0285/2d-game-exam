@@ -31,8 +31,8 @@ public class PlayerManager : MonoBehaviour
 
     void OnTriggerCollisionEnter2D(Collision2D collision)
     {
-        Enemy enemy = collision.collider.GetComponent<Enemy>();
-        if (enemy != null)
+       // Enemy enemy = collision.collider.GetComponent<Enemy>();
+      //  if (enemy != null)
         {
             DamageTaken();
         }
