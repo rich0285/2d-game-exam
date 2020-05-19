@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2896860939959503742}
   - component: {fileID: 2896860939959503741}
-  - component: {fileID: 3014112396691695263}
+  - component: {fileID: 5766213765409370912}
+  - component: {fileID: 8143153771545972675}
   m_Layer: 0
   m_Name: firecoin
   m_TagString: Untagged
@@ -81,7 +82,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &3014112396691695263
+--- !u!58 &5766213765409370912
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2896860939959503740}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.26, y: -0.12}
+  serializedVersion: 2
+  m_Radius: 3.6320622
+--- !u!95 &8143153771545972675
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
