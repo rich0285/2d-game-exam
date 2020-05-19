@@ -31,7 +31,7 @@ public class PlayerManager : MonoBehaviour
 
     void OnTriggerCollisionEnter2D(Collision2D collision)
     {
-        Enemy enemy = collision.collider.GetComponent<Enemy>()
+        Enemy enemy = collision.collider.GetComponent<Enemy>();
         if (enemy != null)
         {
             DamageTaken();
@@ -42,5 +42,10 @@ public class PlayerManager : MonoBehaviour
     void DamageTaken()
     {
         Health -= 10;
+
+        if (Health <= 0)
+        {
+            //load Sceen eller noget i den stil.
+        }
     }
 }
