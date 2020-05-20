@@ -9,13 +9,22 @@ public class Enemy : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
 
+    public Animator animator;
+   
+   
+   
+
     void Start()
     {
-        rb = this.GetComponent<Rigidbody2D>();
+
     }
 
     void Update()
     {
+        rb = this.GetComponent<Rigidbody2D>();
+        animator.SetFloat("X input", movement.normalized.x);
+        animator.SetFloat("Y input", movement.normalized.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
         findPlayer();
     }
     private void FixedUpdate()
