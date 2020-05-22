@@ -37,8 +37,15 @@ public class Enemy : MonoBehaviour
     }
     void findPlayer()
     {
-        Vector3 direction = player.position - transform.position;
-        direction.Normalize();
-        movement = direction;
+        if (player != null)
+        {   animator.SetBool("IsRunning",true);
+            Vector3 direction = player.position - transform.position;
+            direction.Normalize();
+            movement = direction;
+        }
+        else
+        {
+            animator.SetBool("IsRunning", false);
+        }
     }
 }
