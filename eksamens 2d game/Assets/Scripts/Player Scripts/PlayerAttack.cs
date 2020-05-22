@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireBallShoot : MonoBehaviour
+public class PlayerAttack : MonoBehaviour
 {
 
    
