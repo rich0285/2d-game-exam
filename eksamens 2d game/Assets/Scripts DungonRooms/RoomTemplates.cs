@@ -13,9 +13,25 @@ public class RoomTemplates : MonoBehaviour
 
     public List<GameObject> rooms;
 
+    public float waitTime;
+    public GameObject boss;
 
     void Update()
     {
+        if (waitTime <= 0)
+        {
+            for (int i = 0; i < rooms.Count; i++)
+            {
+                if (i == rooms.Count - 1)
+                {
+                    Instantiate(boss, rooms[i].transform.position, Quaternion.identity);
+                }
+            }
+        }
+        else
+        {
+            waitTime -= Time.deltaTime;
+        }
 
 
     }
