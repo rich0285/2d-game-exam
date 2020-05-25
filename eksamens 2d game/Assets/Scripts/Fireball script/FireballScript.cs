@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeleteWhenTimesOver : MonoBehaviour
+public class FireballScript : MonoBehaviour
 {
     
 
