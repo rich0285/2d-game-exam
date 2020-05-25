@@ -294,7 +294,7 @@ MonoBehaviour:
     type: 3}
   rooms: []
   waitTime: 5
-  boss: {fileID: 6859090785647198129, guid: 159bd4f574a7f1a41a8f619de4d82589, type: 3}
+  boss: {fileID: 6781953755135728841, guid: 159bd4f574a7f1a41a8f619de4d82589, type: 3}
 --- !u!4 &338250668
 Transform:
   m_ObjectHideFlags: 0
@@ -484,7 +484,7 @@ PrefabInstance:
     - target: {fileID: 5423444984846580500, guid: e535240c20e0b404db4d6806df3f834c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5423444984846580500, guid: e535240c20e0b404db4d6806df3f834c,
         type: 3}
@@ -568,7 +568,7 @@ PrefabInstance:
     - target: {fileID: 5509717942283751670, guid: 0e5eba4d03e350246b01e6677d69e22e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5509717942283751670, guid: 0e5eba4d03e350246b01e6677d69e22e,
         type: 3}
@@ -672,7 +672,7 @@ PrefabInstance:
     - target: {fileID: 7861962051653513487, guid: 02ab61d02c5dbdc4da0070840961bc6f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7861962051653513487, guid: 02ab61d02c5dbdc4da0070840961bc6f,
         type: 3}

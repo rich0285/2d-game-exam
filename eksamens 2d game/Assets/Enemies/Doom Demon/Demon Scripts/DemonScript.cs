@@ -15,7 +15,7 @@ public class DemonScript : MonoBehaviour
 
     void Start()
     {
-
+      player= GameObject.FindWithTag("Player").transform;
     }
 
     void Update()
