@@ -6,7 +6,7 @@ public class Destroyer : MonoBehaviour
 {
 	void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag=="Spawn Point")
+        if (other.gameObject.tag=="SpawnPoint")
         {
             Destroy(other.gameObject);
         }
