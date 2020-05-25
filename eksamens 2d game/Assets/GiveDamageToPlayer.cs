@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GiveDamageToPlayer : MonoBehaviour
 {
-    public static int demonHealth = 50;
+   
     // Start is called before the first frame update
     void Start()
     {

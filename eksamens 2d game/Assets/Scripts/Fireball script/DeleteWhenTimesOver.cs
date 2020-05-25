@@ -29,7 +29,7 @@ public class DeleteWhenTimesOver : MonoBehaviour
         if (coll.gameObject.tag == "Enemy")
         {
             DestroyFireball();
-            GiveDamageToPlayer.demonHealth -= 5;
+            DemonScript.demonHealth -= 5;
 
         }
     }

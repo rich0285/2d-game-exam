@@ -10,10 +10,12 @@ public class NextLevel : MonoBehaviour
 
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("game Ended");
+
 
             SceneManager.LoadScene(0);
-            
+            RoomTemplates.spawnedBoss = false;
+            RoomTemplates.waitTime = 5;
+            GiveDamageToPlayer.demonHealth = 50;
         }
 
     }
