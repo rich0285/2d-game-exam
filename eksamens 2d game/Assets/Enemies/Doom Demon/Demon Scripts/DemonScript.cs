@@ -55,6 +55,7 @@ public class DemonScript : MonoBehaviour
     {
         if (GiveDamageToPlayer.demonHealth == 0)
         {
+            PlayerManager.Score += 50;
             Destroy(this.gameObject);
         }
     }

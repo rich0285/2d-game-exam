@@ -19,7 +19,7 @@ public class GiveDamageToPlayer : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        PlayerManager.Score += 50;
+        
         if (other.gameObject.tag == "Player")
         {
             PlayerManager.Health -= 5;
