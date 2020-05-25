@@ -136,6 +136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aea1f2090014d9e4baad3dc323ca0d64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 5509717942283751670, guid: 0e5eba4d03e350246b01e6677d69e22e, type: 3}
   moveSpeed: 3
   animator: {fileID: 685167892475052987}
