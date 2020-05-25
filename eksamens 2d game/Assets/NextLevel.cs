@@ -15,7 +15,7 @@ public class NextLevel : MonoBehaviour
             SceneManager.LoadScene(0);
             RoomTemplates.spawnedBoss = false;
             RoomTemplates.waitTime = 5;
-            GiveDamageToPlayer.demonHealth = 50;
+            DemonScript.demonHealth = 50;
         }
 
     }
