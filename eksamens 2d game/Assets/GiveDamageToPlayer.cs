@@ -15,4 +15,12 @@ public class GiveDamageToPlayer : MonoBehaviour
     {
         
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            PlayerManager.Health -= 5;
+        }
+    }
 }
