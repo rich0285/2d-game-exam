@@ -24,16 +24,23 @@ public class Projectile : MonoBehaviour
         // do some damage
         if (coll.gameObject.tag== "Enemy")
         {
+            DestroyFireball();
+            GiveDamageToPlayer.demonHealth -= 5;
             
         }
 
         // Dissapere on wall hit
         if (coll.gameObject.tag == "Walls")
         {
-            
-            Instantiate(FireballImpact, transform.position, Quaternion.identity);
-            Destroy(this.gameObject);
+
+            DestroyFireball();
 
         }
+    }
+
+    void DestroyFireball()
+    {
+        Instantiate(FireballImpact, transform.position, Quaternion.identity);
+        Destroy(this.gameObject);
     }
 }
