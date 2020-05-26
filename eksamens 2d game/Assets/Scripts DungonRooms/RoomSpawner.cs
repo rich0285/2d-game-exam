@@ -31,7 +31,8 @@ public class RoomSpawner : MonoBehaviour
 
       
         Invoke("Spawn", 0.1f);
-   
+        yield return new WaitForFixedUpdate();
+
 
     }
 
