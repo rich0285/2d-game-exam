@@ -9,11 +9,13 @@ public class GameManager : MonoBehaviour
     public Text ScoreText;
     public Text HealthText;
     public float Health;
+  
 
     void Update()
     {
         ScoreManager();
         HealthManager();
+       
 
     }
 

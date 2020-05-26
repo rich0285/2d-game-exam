@@ -5,17 +5,18 @@ using UnityEngine;
 
 public class DemonScript : MonoBehaviour
 {
-    public Transform player;
     public float moveSpeed = 3f;
+    public static int demonHealth = 50;
+
+    public Transform player;
     private Rigidbody2D rb;
     private Vector2 movement;
-
     public Animator animator;
   
 
     void Start()
     {
-
+      player= GameObject.FindWithTag("Player").transform;
     }
 
     void Update()
@@ -24,6 +25,7 @@ public class DemonScript : MonoBehaviour
         animator.SetFloat("X input", movement.normalized.x);
         animator.SetFloat("Y input", movement.normalized.y);
         FindPlayer();
+        EnemyDie();
     }
     private void FixedUpdate()
     {
@@ -48,5 +50,17 @@ public class DemonScript : MonoBehaviour
             animator.SetBool("IsRunning", false);
         }
     }
+
+    void EnemyDie()
+    {
+        if (demonHealth == 0)
+        {
+            PlayerManager.Score += 50;
+            Destroy(this.gameObject);
+        }
+    }
+    // Take damage from player
+
+
 
 }

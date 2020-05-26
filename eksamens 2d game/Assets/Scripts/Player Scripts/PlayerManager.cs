@@ -5,11 +5,11 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     public static float Score ;
-    public static int Health;
+    public static int Health =100;
     // Start is called before the first frame update
     void Start()
     {
-        Health = 100;
+        
     }
 
     // Update is called once per frame
@@ -28,24 +28,5 @@ public class PlayerManager : MonoBehaviour
         }
 
     }
-
-    void OnTriggerCollisionEnter2D(Collision2D collision)
-    {
-       // Enemy enemy = collision.collider.GetComponent<Enemy>();
-      //  if (enemy != null)
-        {
-            DamageTaken();
-        }
-
-    }
-
-    void DamageTaken()
-    {
-        Health -= 10;
-
-        if (Health <= 0)
-        {
-            //load Sceen eller noget i den stil.
-        }
-    }
 }
+

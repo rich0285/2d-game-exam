@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7861962050918189750}
   - component: {fileID: 7861962050918189739}
   - component: {fileID: 7861962050918189748}
-  - component: {fileID: 7861962050918189749}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -78,18 +77,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Score
---- !u!114 &7861962050918189749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7861962050918189751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5198f8deef2615438d67f0451b666d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7861962051653513483
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,7 +188,6 @@ GameObject:
   - component: {fileID: 7861962052076658103}
   - component: {fileID: 7861962052076658100}
   - component: {fileID: 7861962052076658101}
-  - component: {fileID: 7861962052076658102}
   m_Layer: 5
   m_Name: Health
   m_TagString: Untagged
@@ -268,16 +254,3 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Health
---- !u!114 &7861962052076658102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7861962052076658096}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59c5aa9ccc965284899194532afe8dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HealthText: {fileID: 7861962052076658101}

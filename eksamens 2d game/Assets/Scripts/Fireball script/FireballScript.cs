@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Projectile : MonoBehaviour
+public class FireballScript : MonoBehaviour
 {
+    
+
     public float LiveTime = 5;
     public GameObject FireballImpact;
-
-    public static float DamageAmount = 10;
-
     void Update()
     {
         LiveTime -= Time.deltaTime;
@@ -20,20 +19,23 @@ public class Projectile : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D coll)
     {
-
-        // do some damage
-        if (coll.gameObject.tag== "Enemy")
-        {
-            
-        }
-
-        // Dissapere on wall hit
         if (coll.gameObject.tag == "Walls")
         {
-            
             Instantiate(FireballImpact, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
 
         }
+        // do some damage
+        if (coll.gameObject.tag == "Enemy")
+        {
+            DestroyFireball();
+            DemonScript.demonHealth -= 5;
+
+        }
+    }
+    void DestroyFireball()
+    {
+        Instantiate(FireballImpact, transform.position, Quaternion.identity);
+        Destroy(this.gameObject);
     }
 }
