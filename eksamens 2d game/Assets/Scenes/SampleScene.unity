@@ -293,7 +293,6 @@ MonoBehaviour:
   closedRoom: {fileID: 7297362545870353133, guid: 1774ab960e759034ebce7efef95e0215,
     type: 3}
   rooms: []
-  waitTime: 5
   boss: {fileID: 6781953755135728841, guid: 159bd4f574a7f1a41a8f619de4d82589, type: 3}
 --- !u!4 &338250668
 Transform:
@@ -309,38 +308,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &720967935 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4588401877176297358, guid: e535240c20e0b404db4d6806df3f834c,
-    type: 3}
-  m_PrefabInstance: {fileID: 3400369411945994191}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &720967938
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720967935}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1001 &785284201
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -459,7 +426,7 @@ PrefabInstance:
     - target: {fileID: 5423444984846580500, guid: e535240c20e0b404db4d6806df3f834c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.90625
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5423444984846580500, guid: e535240c20e0b404db4d6806df3f834c,
         type: 3}
@@ -500,6 +467,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423444984846580500, guid: e535240c20e0b404db4d6806df3f834c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.090302214
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423444984846580500, guid: e535240c20e0b404db4d6806df3f834c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.10530481
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e535240c20e0b404db4d6806df3f834c, type: 3}
