@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 8136548507986632576}
   - component: {fileID: 8753521182704400727}
   m_Layer: 0
-  m_Name: Spawn Point (2)
+  m_Name: Destroyer
   m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 0
-  spawned: 0
+  spawned: 1
   waitTime: 10
 --- !u!114 &8753521182704400727
 MonoBehaviour:
@@ -257,6 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d3db894cd76dd4387e254c985523ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waitTime: 20
 --- !u!1 &6649943144923663643
 GameObject:
   m_ObjectHideFlags: 0

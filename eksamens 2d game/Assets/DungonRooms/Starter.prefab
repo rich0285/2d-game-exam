@@ -5582,9 +5582,9 @@ GameObject:
   - component: {fileID: 7434803633946278116}
   - component: {fileID: 8584027828081842400}
   - component: {fileID: 5769542809510869987}
-  - component: {fileID: 5063352957968715782}
+  - component: {fileID: 6521257113001210972}
   m_Layer: 0
-  m_Name: Spawn Point (4)
+  m_Name: Destroyer
   m_TagString: SpawnPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5664,9 +5664,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 0
-  spawned: 0
+  spawned: 1
   waitTime: 7
---- !u!114 &5063352957968715782
+--- !u!114 &6521257113001210972
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5675,9 +5675,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8403598476632894056}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95d3db894cd76dd4387e254c985523ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 77e104af60a629c4f9cfec28bf699d4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waitTime: 20
 --- !u!1 &8441799716440257637
 GameObject:
   m_ObjectHideFlags: 0

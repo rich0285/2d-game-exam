@@ -21,9 +21,19 @@ public class RoomSpawner : MonoBehaviour
     {
         Destroy(gameObject, waitTime);
         templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>();
-        Invoke("Spawn", 0.2f);
+       // Invoke("Spawn", 0.5f);
+       StartCoroutine("SpawnAndWait");
     }
 
+    IEnumerator SpawnAndWait()
+    {
+        yield return new WaitForSeconds(1);
+
+      
+        Invoke("Spawn", 0.1f);
+   
+
+    }
 
     void Spawn()
     {
@@ -65,8 +75,8 @@ public class RoomSpawner : MonoBehaviour
             {
                 Instantiate(templates.closedRoom, transform.position, Quaternion.identity);
                 Destroy(gameObject);
-            }
-            spawned = true;
+            } 
+            
         }
     }
 }
