@@ -211,6 +211,8 @@ MonoBehaviour:
   moveSpeed: 5
   player: {fileID: 5509717942283751670, guid: 0e5eba4d03e350246b01e6677d69e22e, type: 3}
   animator: {fileID: 6781953755135728845}
+  maxDist: 10.8
+  distance: 0
 --- !u!61 &8426129227267185697
 BoxCollider2D:
   m_ObjectHideFlags: 0
