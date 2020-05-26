@@ -16,6 +16,7 @@ public class RoomTemplates : MonoBehaviour
     public static float waitTime = 5;
     public GameObject boss;
     public static bool spawnedBoss;
+    public GameObject ladder;
 
     void Update()
     {
@@ -26,6 +27,7 @@ public class RoomTemplates : MonoBehaviour
                 if (i == rooms.Count - 1)
                 {
                     Instantiate(boss, rooms[i].transform.position, Quaternion.identity);
+                    Instantiate(ladder, rooms[i].transform.position, Quaternion.identity);
                     spawnedBoss = true;
                 }
             }
