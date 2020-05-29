@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
         HealthText.text = "Health : " + Health;
         if (Health == 0)
         {
+            NextLevel.GameLevel = 0;
             SceneManager.LoadScene(2);
         }
     }
