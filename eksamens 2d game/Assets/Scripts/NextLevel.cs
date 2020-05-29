@@ -5,14 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
-        void OnTriggerEnter2D(Collider2D other)
-    {
 
+    public static float GameLevel;
+        void OnTriggerEnter2D(Collider2D other)
+        {
+            if (GameLevel == 5)
+            {
+                SceneManager.LoadScene(3);
+                GameLevel = 0;
+            }
         if (other.gameObject.tag == "Player")
         {
 
-
-            SceneManager.LoadScene(0);
+            GameLevel += 1;
+            SceneManager.LoadScene(1);
             RoomTemplates.spawnedBoss = false;
             RoomTemplates.waitTime = 5;
            // DemonScript.demonHealth = 50;
