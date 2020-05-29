@@ -43,5 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b34a55922e3497e4da5d7bde8bda560e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy: {fileID: 0}
+  Enemy: {fileID: 786493599858454487, guid: 8f7544567079dbe4b8a9fae07bbf30ab, type: 3}
   Coin: {fileID: 8679203696643959025, guid: 588c65165ab628a4bb9ca76af3d9df07, type: 3}
