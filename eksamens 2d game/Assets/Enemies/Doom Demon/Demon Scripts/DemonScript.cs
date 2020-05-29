@@ -6,7 +6,8 @@ using UnityEngine;
 public class DemonScript : MonoBehaviour
 {
     public float moveSpeed = 3f;
-    public static int demonHealth = 50;
+    // public static int demonHealth = 50;
+    public  int demonHealth = 50;
     private bool isAgrro;
     public Transform player;
     private Rigidbody2D rb;
@@ -41,7 +42,6 @@ public class DemonScript : MonoBehaviour
             rb.MovePosition(Vector3.zero);
         }
 
-        EnemyDie();
     }
     private void FixedUpdate()
     {
@@ -89,13 +89,19 @@ public class DemonScript : MonoBehaviour
 
     void EnemyDie()
     {
-        if (demonHealth == 0)
-        {
-            PlayerManager.Score += 50;
-            Destroy(this.gameObject);
-        }
+        PlayerManager.Score += 50;
+        Destroy(gameObject);
     }
     // Take damage from player
+    public void TakeDamage(int dmg)
+    {
+        this.demonHealth -= dmg;
+        if (demonHealth <= 0)
+        {
+            EnemyDie();
+        }
+    }
+   
 
 
 

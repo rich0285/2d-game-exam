@@ -19,20 +19,25 @@ public class FireballScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D coll)
     {
+
         if (coll.gameObject.tag == "Walls")
         {
             Instantiate(FireballImpact, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
 
         }
-        // do some damage
+
         if (coll.gameObject.tag == "Enemy")
         {
-            DestroyFireball();
-            DemonScript.demonHealth -= 5;
-
+            DemonScript enemy = coll.gameObject.GetComponent<DemonScript>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(4);
+                DestroyFireball();
+            }
         }
     }
+   
     void DestroyFireball()
     {
         Instantiate(FireballImpact, transform.position, Quaternion.identity);

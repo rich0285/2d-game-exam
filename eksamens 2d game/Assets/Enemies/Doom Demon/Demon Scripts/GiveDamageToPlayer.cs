@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GiveDamageToPlayer : MonoBehaviour
 {
-   
+    public int dmg=10; 
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +22,7 @@ public class GiveDamageToPlayer : MonoBehaviour
         
         if (other.gameObject.tag == "Player")
         {
-            PlayerManager.Health -= 5;
+            PlayerManager.Health -= dmg;
         }
         
     }
