@@ -13,7 +13,7 @@ public class DemonScript : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     public Animator animator;
-    public float maxDist = 10.5f;
+    public float maxDist = 5f;
     public float distance;
 
     void Start()

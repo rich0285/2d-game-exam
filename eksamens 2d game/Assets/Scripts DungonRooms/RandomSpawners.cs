@@ -21,7 +21,7 @@ public class RandomSpawners : MonoBehaviour
 
     void SpawnStuff()
     {
-        int randy = Random.Range(-10, 10);
+        int randy = Random.Range(-5, 20);
         if (randy > 0)
         {
             Debug.Log("randy>0");
