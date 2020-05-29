@@ -13,6 +13,8 @@ public class NextLevel : MonoBehaviour
             {
                 SceneManager.LoadScene(3);
                 GameLevel = 0;
+                PlayerManager.Score = 0;
+                PlayerManager.Health = 100;
             }
         if (other.gameObject.tag == "Player")
         {
