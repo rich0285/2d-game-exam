@@ -485,6 +485,21 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7861962051653513481, guid: 02ab61d02c5dbdc4da0070840961bc6f,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7861962051653513481, guid: 02ab61d02c5dbdc4da0070840961bc6f,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 7861962051653513481, guid: 02ab61d02c5dbdc4da0070840961bc6f,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 7861962051653513483, guid: 02ab61d02c5dbdc4da0070840961bc6f,
         type: 3}
       propertyPath: m_Name
