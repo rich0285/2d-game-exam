@@ -18,12 +18,12 @@ public class NextLevel : MonoBehaviour
             }
         if (other.gameObject.tag == "Player")
         {
-
+            PlayerManager.Health += 15;
             GameLevel += 1;
             SceneManager.LoadScene(1);
             RoomTemplates.spawnedBoss = false;
             RoomTemplates.waitTime = 5;
-           // DemonScript.demonHealth = 50;
+          
         }
 
     }
