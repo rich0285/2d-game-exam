@@ -19,7 +19,12 @@ public class FireballScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D coll)
     {
+        if (coll.gameObject.tag == "Barrel")
+        {
+            Instantiate(FireballImpact, transform.position, Quaternion.identity);
+            Destroy(this.gameObject);
 
+        }
         if (coll.gameObject.tag == "Walls")
         {
             Instantiate(FireballImpact, transform.position, Quaternion.identity);

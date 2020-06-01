@@ -9,6 +9,8 @@ TagManager:
   - Walls
   - Coins
   - Enemy
+  - Fireball
+  - Barrel
   layers:
   - Default
   - TransparentFX
