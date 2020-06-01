@@ -33,9 +33,8 @@ public class BarrelScript : MonoBehaviour
             {
                 PlayerManager.Health -= 5;
             }
-            Instantiate(coin, transform.position, Quaternion.identity);
             Destroy(this.gameObject);
-
+            Instantiate(coin, transform.position, Quaternion.identity);
         }
 
        

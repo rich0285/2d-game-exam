@@ -47,9 +47,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosion: {fileID: 8310792206433547301, guid: d685e7b064a62844ead0d78d4ef16394,
     type: 3}
-  coin: {fileID: 1035482302429275307, guid: e4cd0b35278d2364e9e46e16a55d941e, type: 3}
+  coin: {fileID: 8679203696643959025, guid: 588c65165ab628a4bb9ca76af3d9df07, type: 3}
   player: {fileID: 5509717942283751670, guid: 0e5eba4d03e350246b01e6677d69e22e, type: 3}
   distance: 0
+  anything: 1
 --- !u!70 &7126834460560897885
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
