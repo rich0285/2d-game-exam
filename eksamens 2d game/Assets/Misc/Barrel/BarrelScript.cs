@@ -9,8 +9,8 @@ public class BarrelScript : MonoBehaviour
     public ParticleSystem explosion;
     public GameObject coin;
     public Transform player;
-    public float distance;
-    public bool anything = true;
+    public float Pdistance;
+   
     void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
@@ -18,25 +18,22 @@ public class BarrelScript : MonoBehaviour
 
     void Update()
     {
-        if (anything ==  true)
-        {
-            distance = Vector3.Distance(transform.position, player.position);
+        Pdistance = Vector3.Distance(transform.position, player.position);
         }
-        
-    }
+
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "Fireball")
         {
+            Destroy(this.gameObject);
             Instantiate(explosion, transform.position, Quaternion.identity);
+            Instantiate(coin, transform.position, Quaternion.identity);
             if (Vector3.Distance(transform.position, player.position) < 1.048197)
             {
                 PlayerManager.Health -= 5;
             }
-            Destroy(this.gameObject);
-            Instantiate(coin, transform.position, Quaternion.identity);
         }
-
-       
     }
+
+    
 }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 786493599858454485}
   - component: {fileID: 786493599858454486}
   - component: {fileID: 2313696968454418239}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mini Demon
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -139,8 +139,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+  demonHealth: 50
   player: {fileID: 5509717942283751670, guid: 0e5eba4d03e350246b01e6677d69e22e, type: 3}
   animator: {fileID: 786493599858454483}
+  maxDist: 5
+  distance: 0
 --- !u!61 &2313696968454418239
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -178,7 +181,7 @@ GameObject:
   - component: {fileID: 6816583824661782395}
   - component: {fileID: 586420988661360152}
   - component: {fileID: 7888356866433239436}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AttackCollider
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -237,3 +240,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 477540d5919a8ea48beb9cf9d8d7d4cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dmg: 10

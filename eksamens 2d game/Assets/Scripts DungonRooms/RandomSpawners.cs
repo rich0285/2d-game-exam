@@ -7,6 +7,7 @@ public class RandomSpawners : MonoBehaviour
 {
     public GameObject Enemy;
     public GameObject Coin;
+    public GameObject Barrel;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +33,12 @@ public class RandomSpawners : MonoBehaviour
         {
             Debug.Log("randy<0");
             Instantiate(Enemy, transform.position, Quaternion.identity);
+            Destroy(gameObject, 2);
+        }
+        if (randy < 0)
+        {
+            Debug.Log("randy<0");
+            Instantiate(Barrel, transform.position, Quaternion.identity);
             Destroy(gameObject, 2);
         }
         else

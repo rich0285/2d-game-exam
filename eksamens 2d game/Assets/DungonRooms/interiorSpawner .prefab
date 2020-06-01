@@ -45,3 +45,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemy: {fileID: 786493599858454487, guid: 8f7544567079dbe4b8a9fae07bbf30ab, type: 3}
   Coin: {fileID: 8679203696643959025, guid: 588c65165ab628a4bb9ca76af3d9df07, type: 3}
+  Barrel: {fileID: 309975876459701828, guid: eb241fa82a7da6d46bb0ce96c3915f46, type: 3}

@@ -49,8 +49,11 @@ MonoBehaviour:
     type: 3}
   coin: {fileID: 8679203696643959025, guid: 588c65165ab628a4bb9ca76af3d9df07, type: 3}
   player: {fileID: 5509717942283751670, guid: 0e5eba4d03e350246b01e6677d69e22e, type: 3}
-  distance: 0
-  anything: 1
+  Pdistance: 0
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 256
+  radius: 0.38
 --- !u!70 &7126834460560897885
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -77,9 +80,11 @@ GameObject:
   m_Component:
   - component: {fileID: 3449130623633965121}
   - component: {fileID: 3449130623633965120}
+  - component: {fileID: 6810496444861736433}
+  - component: {fileID: 8880262467429653093}
   m_Layer: 0
   m_Name: barrel
-  m_TagString: Untagged
+  m_TagString: Barrel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -147,3 +152,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6810496444861736433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3449130623633965123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b66bdcc687839547abde2ea029f3b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 256
+  radius: 0.51
+--- !u!70 &8880262467429653093
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3449130623633965123}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.64, y: 0.64}
+  m_Direction: 0
