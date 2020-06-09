@@ -24,19 +24,16 @@ public class RandomSpawners : MonoBehaviour
         int randy = Random.Range(-5, 20);
         if (randy > 0)
         {
-            Debug.Log("randy>0");
             Instantiate(Coin, transform.position, Quaternion.identity);
             Destroy(gameObject, 2);
         }
         if (randy < 0)
         {
-            Debug.Log("randy<0");
             Instantiate(Enemy, transform.position, Quaternion.identity);
             Destroy(gameObject, 2);
         }
         else
         {
-            Debug.Log("=0");
             Destroy(gameObject, 2);
         }
     }

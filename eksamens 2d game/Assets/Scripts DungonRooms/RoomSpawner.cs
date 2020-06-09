@@ -21,19 +21,16 @@ public class RoomSpawner : MonoBehaviour
     {
         Destroy(gameObject, waitTime);
         templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>();
-       // Invoke("Spawn", 0.5f);
-       StartCoroutine("SpawnAndWait");
+        Invoke("Spawn", 1.1f);
+        // StartCoroutine("SpawnAndWait()");
+        //Spawn();
+
     }
 
     IEnumerator SpawnAndWait()
     {
         yield return new WaitForSeconds(1);
-
-      
-        Invoke("Spawn", 0.1f);
-        yield return new WaitForFixedUpdate();
-
-
+        Spawn();
     }
 
     void Spawn()
